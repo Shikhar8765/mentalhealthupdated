@@ -20,8 +20,8 @@ Step 2: After that run the installer file for setup
 
 ![Capture](https://github.com/maneeshay/Healthy_Minds/assets/53181670/c3f07d4b-1e64-4808-bc96-82100bef7023)
 
-
 ![Capture](https://github.com/maneeshay/Healthy_Minds/assets/53181670/a0667b4c-e05b-4b35-a4e4-74a9fb4ea06d)
+
 
 Step 3: Select the path where to install.
 
