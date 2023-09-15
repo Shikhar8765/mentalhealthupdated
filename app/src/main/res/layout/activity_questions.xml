@@ -1,0 +1,368 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/date"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvdate"
+            android:text=""
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/changeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/change_date"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <RadioGroup
+                android:id="@+id/groupOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="@string/are_you_a_happy_person"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/qn1"
+                    style="@style/customRadio"
+                    android:text="@string/yes"/>
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/sometimes"/>
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/rarely"/>
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/never"/>
+
+            </RadioGroup>
+
+
+            //Question2
+
+            <RadioGroup
+                android:id="@+id/grouTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="@string/do_you_keep_secrets_from_your_family"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/rarely" />
+
+                <RadioButton
+                    android:id="@+id/qn2"
+                    style="@style/customRadio"
+                    android:text="@string/never" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/sometimes" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/yes" />
+
+            </RadioGroup>
+
+
+
+            //Question3
+
+            <RadioGroup
+                android:id="@+id/grouThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="@string/have_you_had_any_thoughts_of_suicide"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/qn3"
+                    style="@style/customRadio"
+                    android:text="@string/never" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/some_thoughts_of_suicide" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/some_attempts_of_suicide" />
+
+            </RadioGroup>
+
+
+            //Question4
+
+            <RadioGroup
+                android:id="@+id/groupFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="@string/how_is_your_sleep"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/qn4"
+                    style="@style/customRadio"
+                    android:text="@string/sleeping_as_usual" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/slight_difficult" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/reduced_by_two_hours" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/less_than_3hrs_at_night" />
+
+            </RadioGroup>
+
+
+            //Question5
+
+            <RadioGroup
+                android:id="@+id/grouFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="@string/in_the_past_two_weeks_how_often_have_you_felt_down_depressed_or_hopeless"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/qns5"
+                    style="@style/customRadio"
+                    android:text="@string/not_at_all" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/several_days" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/more_than_half_the_days" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/nearly_everyday" />
+
+            </RadioGroup>
+
+            //Question6
+
+            <RadioGroup
+                android:id="@+id/grouSix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="@string/do_you_prefer_to_stay_at_home_rather_than_going_out_and_doing_new_things"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/qn6"
+                    style="@style/customRadio"
+                    android:text="@string/no" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/yes" />
+            </RadioGroup>
+
+
+            //Question7
+
+            <RadioGroup
+                android:id="@+id/grouSeven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="@string/feeling_bad_about_or_that_you_are_a_failure_or_have_let_yourself_or_your_family_down"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <RadioButton
+                    android:id="@+id/qn7"
+                    style="@style/customRadio"
+                    android:text="@string/not_at_all" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/several_days" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/more_than_half_the_days" />
+
+                <RadioButton
+                    style="@style/customRadio"
+                    android:text="@string/nearly_everyday" />
+
+
+                //Question8
+
+                <RadioGroup
+                    android:id="@+id/grouEight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/is_being_offended_a_choice_we_make"
+                        android:textColor="#000000"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/qn8"
+                        style="@style/customRadio"
+                        android:text="@string/no" />
+
+                    <RadioButton
+                        style="@style/customRadio"
+                        android:text="@string/yes" />
+
+                </RadioGroup>
+
+
+                //Question9
+
+                <RadioGroup
+                    android:id="@+id/grouNine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/how_do_you_like_to_spend_your_weekends"
+                        android:textColor="#000000"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/qn9"
+                        style="@style/customRadio"
+                        android:text="@string/with_friends_and_family" />
+
+                    <RadioButton
+                        style="@style/customRadio"
+                        android:text="@string/alone" />
+
+                </RadioGroup>
+
+
+                //Question10
+
+                <RadioGroup
+                    android:id="@+id/grouTen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/do_you_think_that_positive_thinking_can_improve_health"
+                        android:textColor="#000000"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/qn10"
+                        style="@style/customRadio"
+                        android:text="@string/yes" />
+
+                    <RadioButton
+                        style="@style/customRadio"
+                        android:text="@string/no" />
+
+                </RadioGroup>
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sumbit"
+            android:onClick="submitAnsView"
+            android:id="@+id/btnSubmit"/>
+
+    </LinearLayout>
+
+</ScrollView>

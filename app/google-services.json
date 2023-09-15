@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "398606539008",
+    "firebase_url": "https://mentalhealthtracker-ded8c-default-rtdb.firebaseio.com",
+    "project_id": "mentalhealthtracker-ded8c",
+    "storage_bucket": "mentalhealthtracker-ded8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398606539008:android:3a7872d6208fc0d413fbe5",
+        "android_client_info": {
+          "package_name": "com.example.healthyminds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398606539008-uij08hr2c3agt9f3oug6es6u0pq3tb1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALTpVmpLP_3jafpMGwrH5xveJ4PyOL_5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398606539008-uij08hr2c3agt9f3oug6es6u0pq3tb1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398606539008:android:0b0a29ba47216a0613fbe5",
+        "android_client_info": {
+          "package_name": "com.example.mentalhealthtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398606539008-vs10jmpr8qehh7tv2co6ak7v6scabobf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mentalhealthtracker",
+            "certificate_hash": "b0eb4c13d784d2bdf9845536a24dcb735f2b9828"
+          }
+        },
+        {
+          "client_id": "398606539008-uij08hr2c3agt9f3oug6es6u0pq3tb1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALTpVmpLP_3jafpMGwrH5xveJ4PyOL_5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398606539008-uij08hr2c3agt9f3oug6es6u0pq3tb1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

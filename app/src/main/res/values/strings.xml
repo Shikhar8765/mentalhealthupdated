@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">HealthyMinds</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="please_enter_your_email_address">Please Enter your email address</string>
+    <string name="password">Password</string>
+    <string name="please_enter_your_password">Please enter your Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="please_re_enter_your_password">Please Re-enter your Password</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="please_enter_your_email">Please enter your Email</string>
+    <string name="string_please_enter_your_email">Please enteryour email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="member">Member</string>
+    <string name="meditate">Meditate</string>
+    <string name="profile">Profile</string>
+
+    <string name="good">Good</string>
+
+    <string name="sad">Sad</string>
+
+    <string name="happy">Happy</string>
+    <string name="how_are_you_feeling_today">How are you Feeling today?</string>
+    <string name="goodmorning">Goodmorning!</string>
+    <string name="thought_of_the_day">Thought of the Day!</string>
+    <string name="whats_on_your_mind">Whats on your mind?</string>
+    <string name="recommend_for_you">Recommend for you</string>
+    <string name="view_all">View All</string>
+    <string name="meditate_1">Meditate 1</string>
+    <string name="meditate_2">Meditate 2</string>
+    <string name="meditate_3">Meditate 3</string>
+    <string name="meditate_4">Meditate 4</string>
+    <string name="full_name">Full Name</string>
+    <string name="my_frofile">My Frofile</string>
+    <string name="meditate_music_1">Meditate music 1</string>
+    <string name="meditate_music_2">Meditate music 2</string>
+    <string name="meditate_music_3">Meditate music 3</string>
+    <string name="already_have_an_account">Already have an Account</string>
+    <string name="are_you_a_happy_person">Are you a happy person?</string>
+    <string name="do_you_keep_secrets_from_your_family">Do you keep secrets from your Family?</string>
+    <string name="in_the_past_two_weeks_how_often_have_you_felt_down_depressed_or_hopeless">In the past two weeks, how often have you felt down,depressed or hopeless?</string>
+    <string name="do_you_prefer_to_stay_at_home_rather_than_going_out_and_doing_new_things">Do you prefer to stay at home rather than going out and doing new things?</string>
+    <string name="feeling_bad_about_or_that_you_are_a_failure_or_have_let_yourself_or_your_family_down">Feeling bad about-or that you are a failure or have let yourself or your family down?</string>
+    <string name="is_being_offended_a_choice_we_make">Is being offended a choice we make?</string>
+    <string name="how_do_you_like_to_spend_your_weekends">How do you like to spend your weekends?</string>
+    <string name="do_you_think_that_positive_thinking_can_improve_health">Do you think that positive thinking can improve health?</string>
+    <string name="do_you_have_any_phobia">Do you have any phobia?</string>
+    <string name="do_your_family_know_the_real_you">Do your family know the real you?</string>
+    <string name="do_you_think_a_job_can_change_a_person">Do you think a job can change a person?</string>
+    <string name="do_you_care_about_what_others_think_about_you">Do you care about what others think about you?</string>
+    <string name="are_you_a_responsible_person">Are you a responsible person?</string>
+    <string name="do_you_like_to_go_out_with_your_friends">Do you like to go out with your friends?</string>
+    <string name="how_is_your_sleep">How is your Sleep?</string>
+    <string name="yes">Yes</string>
+    <string name="sometimes">Sometimes</string>
+    <string name="rarely">Rarely</string>
+    <string name="never">Never</string>
+    <string name="have_you_had_any_thoughts_of_suicide">Have you had any thoughts of suicide?</string>
+    <string name="some_thoughts_of_suicide">Some thoughts of suicide</string>
+    <string name="some_attempts_of_suicide">Some attempts of suicide</string>
+    <string name="sleeping_as_usual">Sleeping as usual</string>
+    <string name="slight_difficult">Slight difficult</string>
+    <string name="reduced_by_two_hours">Reduced by two hours</string>
+    <string name="less_than_3hrs_at_night">Less than 3hrs at night</string>
+    <string name="not_at_all">Not at all</string>
+    <string name="several_days">Several days</string>
+    <string name="more_than_half_the_days">More than half the days</string>
+    <string name="nearly_everyday">Nearly Everyday</string>
+    <string name="no">No</string>
+    <string name="nearly_every_day">Nearly every day</string>
+    <string name="alone">Alone</string>
+    <string name="with_friends_and_family">With friends and family</string>
+    <string name="logout">Logout</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="user_profile">User profile</string>
+    <string name="change_date">change date</string>
+    <string name="healthy_minds">Healthy Minds</string>
+    <string-array name="item">
+        <item>Home</item>
+        <item>Member</item>
+        <item>Meditate</item>
+        <item>Profile</item>
+
+    </string-array>
+
+
+</resources>

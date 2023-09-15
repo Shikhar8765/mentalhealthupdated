@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#E5E87C"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="@string/goodmorning"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="@string/how_are_you_feeling_today"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/img1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/happy"
+                android:minHeight="48dp"
+                android:src="@drawable/ic_face_angry_solid"
+                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+            <ImageButton
+                android:id="@+id/img2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/meditate"
+                android:minHeight="48dp"
+                android:src="@drawable/ic_face_sad_cry_solid"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/img3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/happy"
+                android:minHeight="48dp"
+                android:src="@drawable/ic_face_frown_solid"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/img4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/meditate_2"
+                android:minHeight="48dp"
+                android:src="@drawable/ic_face_grin_solid"
+                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:fontFamily="cursive"
+            android:text="@string/thought_of_the_day"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/buttonQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:autofillHints=""
+            android:background="#B63737"
+            android:backgroundTint="#FF1F1F"
+            android:ems="10"
+            android:hint="@string/whats_on_your_mind"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#FFE0B2" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#66D8E6"
+        android:elevation="5dp"
+        app:menu="@menu/bottom_menu" />
+
+
+</RelativeLayout>
