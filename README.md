@@ -1,5 +1,5 @@
 # Healthy_Minds
-Mental health detector App using java/Android studio
+This project ensure creating a small app in Java that monitors its users' mental health and tries to assist them.
 
 #User Guide
 
@@ -17,7 +17,9 @@ Step 1: Download android studio latest version
 ![Capture](https://github.com/maneeshay/Healthy_Minds/assets/53181670/2b78596e-5805-48ad-b1ec-847b7d6008ac)
 
 Step 2: After that run the installer file for setup
+
 ![Capture](https://github.com/maneeshay/Healthy_Minds/assets/53181670/c3f07d4b-1e64-4808-bc96-82100bef7023)
+
 
 ![Capture](https://github.com/maneeshay/Healthy_Minds/assets/53181670/a0667b4c-e05b-4b35-a4e4-74a9fb4ea06d)
 
